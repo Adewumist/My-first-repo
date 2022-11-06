@@ -1,0 +1,49 @@
+@media screen and (max-width:855px) {
+
+    /* Header section starts here  */
+    .nav-desktop{
+        display:none;
+    }
+
+    .nav-mobile{
+        display: flex;
+    }
+
+    .header-text-container{
+        min-width: 100%;
+    }
+    /* Header section ends here  */
+
+    /* About us section Starts here  */
+    .Aboutus-container{
+        justify-content: center;
+    }
+    .About-text-holder1{
+        min-width: 95%;
+    }
+
+    .About-text-holder2{
+        min-width: 95%;
+        margin: 20px 0;
+    }
+
+    .About-text-holder3{
+        min-width: 95%;
+    }
+
+    /* About us section ends here  */
+
+
+    /* Footer section starts here  */
+    footer{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-icon-holder{
+        margin: 15px 0;
+    }
+    /* Footer section ends here  */
+    
+}

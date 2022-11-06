@@ -5,19 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explorer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet"> -->
 
 
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="defaults.css">
     <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="./Mobile.css">
 </head>
 <body>
     <!-- Header section starts here  -->
+    <div class="backdrop" onclick=" dosomething() "></div>
 
     <header>
+
+        <nav class="nav-mobile">
+
+            <div class="mobile-logo">
+                <span>EXPLORER</span>
+                
+            </div>
+
+            <div class="harmburger" onclick="dosomething()">
+                <div class="menu"></div>
+            </div>
+
+            <div class="mobile-links-holder">
+                <ul>
+                    <li> <a href="" class="mobile-active-link"> HOME</a></li>
+                    <li> <a href=""> ABOUT</a></li>
+                    <li> <a href=""> CONTACT</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
         <nav class="nav-desktop">
             <div class="desktop-logo">
                 EXPLORER
@@ -46,6 +71,120 @@
 
     </header>
     <!-- Header section ends here  -->
+
+    <main>
+        <section class="Aboutus-section" id="">
+            <div class="Aboutus-container">
+                <div class="About-text-holder1">
+                    <h2>Explore <br>
+                        something <br>
+                        new.</h2>
+                        <button class="btn btn-white">GET STARTED</button>
+                </div>
+                <div class="About-text-holder2">
+                    <h2>Hiking</h2>
+                    <p>Lorem ipsum dolor sit amet cons <br>
+                        ectetur, adipisicing elit. Corporis <br>
+                         nulla tempore architecto amet v <br>
+                        oluptate voluptatum. Itaque dicta <br>
+                         fuga quia perspiciatis, sed sit id  <br>
+                        voluptatum expedita, architecto a <br>
+                        b illum delectus excepturi?</p>
+                </div>
+                <div class="About-text-holder3">
+                    <h2>Sky Diving</h2>
+                    <p>Lorem ipsum dolor sit amet cons <br>
+                        ectetur, adipisicing elit. Corporis <br>
+                         nulla tempore architecto amet v <br>
+                        oluptate voluptatum. Itaque dicta <br>
+                         fuga quia perspiciatis, sed sit id  <br>
+                        voluptatum expedita, architecto a <br>
+                        b illum delectus excepturi?</p>
+                </div>
+            </div>
+
+            
+            <div class="Aboutus-container">
+                <div class="About-text-holder1">
+                    <h2>Snow Boarding</h2>
+                        <p>Lorem ipsum dolor sit amet cons <br>
+                            ectetur, adipisicing elit. Corporis <br>
+                             nulla tempore architecto amet v <br>
+                            oluptate voluptatum. Itaque dicta <br>
+                             fuga quia perspiciatis, sed sit id  <br>
+                            voluptatum expedita, architecto a <br>
+                            b illum delectus excepturi?</p>
+                </div>
+                <div class="About-text-holder2">
+                    <h2>Surfing</h2>
+                    <p>Lorem ipsum dolor sit amet cons <br>
+                        ectetur, adipisicing elit. Corporis <br>
+                         nulla tempore architecto amet v <br>
+                        oluptate voluptatum. Itaque dicta <br>
+                         fuga quia perspiciatis, sed sit id  <br>
+                        voluptatum expedita, architecto a <br>
+                        b illum delectus excepturi?</p>
+                </div>
+                <div class="About-text-holder3">
+                    <h2>Swimming</h2>
+                    <p>Lorem ipsum dolor sit amet cons <br>
+                        ectetur, adipisicing elit. Corporis <br>
+                         nulla tempore architecto amet v <br>
+                        oluptate voluptatum. Itaque dicta <br>
+                         fuga quia perspiciatis, sed sit id  <br>
+                        voluptatum expedita, architecto a <br>
+                        b illum delectus excepturi?</p>
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <!-- Explore section starts here  -->
+
+        <section class="explorer-section">
+            <div class="show-explorer-section">
+
+                <h2>EXPLORER</h2>
+                <button class="btn btn-white">GET STARTED</button>
+            </div>
+            
+        </section>
+        <!-- Explore section ends here  -->
+
+
+        <!-- Footer section start here  -->
+        <footer>
+            <p>&copy; 2022 Explorer, Built by Adewumi Stephen at Xeraxlabs Internship.</p>
+            <div class="footer-icon-holder">
+
+                <a href="https://www.linkedin.com/in/adewumi-stephen-7b6a49242" target="_blank">
+
+                    <span class="icon-container"> <i class="fa-brands fa-linkedin-in"></i></span>
+                </a>
+                <a href="https://twitter.com/StephenAdewumi6" target="_blank"> <span class="icon-container"> <i class="fa-brands fa-twitter"></i></span></a>
+
+                <a href="https://github.com/Evolvesdesign" target="_blank">
+
+                    <span class="icon-container"> <i class="fa-brands fa-github"></i></span>
+                </a>
+
+               
+            </div>
+
+        </footer>
+
+
+        <!-- Footer section endt here  -->
+
+
+    </main>
+
+    <script src="main.js"></script>
+
+
+    
 
     
 </body>
